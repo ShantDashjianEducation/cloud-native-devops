@@ -1,10 +1,10 @@
-# 🍃 Cloud Native Spring in Action
+# ⚡ Cloud Native DevOps
 
 <a href="https://www.manning.com/books/cloud-native-spring-in-action"><img src="/book-cover.jpg" alt="The book cover of 'Cloud Native Spring in Action' by Thomas Vitale" align="left" height="200px" /></a>
 
-This repository contains the source code accompanying the book [Cloud Native Spring in Action - With Spring Boot and Kubernetes](https://www.manning.com/books/cloud-native-spring-in-action) written by [Thomas Vitale](https://www.thomasvitale.com/) and published by Manning Publications.
+This repository contains the source code for the Cloud Native DevOps training. It's forked from the source code accompanying the book [Cloud Native Spring in Action - With Spring Boot and Kubernetes](https://www.manning.com/books/cloud-native-spring-in-action) written by [Thomas Vitale](https://www.thomasvitale.com/) and published by Manning Publications. This re-purposing is done in compliance with the free use per the Apache License 2.0. Any changes will be noted, per the license.
 
-There is a folder for each chapter, for which both an _initial_ and _final_ versions are available. For example, for chapter 4, you can use `Chapter04/04-begin` as a starting point to follow along with the examples in the chapter and `Chapter04/04-end` to check the code as it looks like at the end.
+There is a folder for each chapter from the book, for which both an _initial_ and _final_ versions are available. For example, for chapter 4, you can use `Chapter04/04-begin` as a starting point to follow along with the examples in the chapter and `Chapter04/04-end` to check the code as it looks like at the end.
 
 ## Changes with Spring Boot 3
 
@@ -121,47 +121,40 @@ Gradle | Maven
 
 ## Guides, Tools and Tips
 
-* [Configuring IntelliJ IDEA](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/configuring-intellij-idea.md)
-* [Configuring Visual Studio Code](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/configuring-visual-studio-code.md)
-* [Minikube configuration behind a proxy](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/minikube-configuration-behind-a-proxy.md)
-* [Observability setup on Kubernetes](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/grafana-observability-stack)
-* [Replacing Kubeval with Kubeconform](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/replacing-kubeval-with-kubeconform.md)
+* [Configuring IntelliJ IDEA](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/configuring-intellij-idea.md)
+* [Configuring Visual Studio Code](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/configuring-visual-studio-code.md)
+* [Minikube configuration behind a proxy](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/minikube-configuration-behind-a-proxy.md)
+* [Observability setup on Kubernetes](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/grafana-observability-stack)
+* [Replacing Kubeval with Kubeconform](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/replacing-kubeval-with-kubeconform.md)
 * [Setting up a Kubernetes cluster for Polar Bookshop on Azure](#)
 * [Setting up a Kubernetes cluster for Polar Bookshop on DigitalOcean](#)
-* [Working with macOS on Apple Silicon](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/working-with-macos-on-apple-silicon.md)
-* [Working with Windows](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Guides/working-with-windows.md)
+* [Working with macOS on Apple Silicon](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/working-with-macos-on-apple-silicon.md)
+* [Working with Windows](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Guides/working-with-windows.md)
 
 ## Source Code by Chapter
 
 | Chapter | Starting point | Intermediate version | Final version |
 |---------|----------------|----------------------|---------------|
 | 1. Introduction to cloud native | - | - | - |
-| 2. Cloud native patterns and technologies | [02-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter02/02-begin) | - | [02-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter02/02-end) |
-| 3. Getting started with cloud native development | [03-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter03/03-begin) | - | [03-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter03/03-end) |
-| 4. Externalized configuration management | [04-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter04/04-begin) | - | [04-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter04/04-end) |
-| 5. Persisting and managing data in the cloud | [05-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter05/05-begin) | [05-intermediate](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter05/05-intermediate) | [05-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter05/05-end) |
-| 6. Containerizing Spring Boot | [06-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter06/06-begin) | - | [06-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter06/06-end) |
-| 7. Kubernetes fundamentals for Spring Boot | [07-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter07/07-begin) | - | [07-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter07/07-end) |
-| 8. Reactive Spring: Resilience and scalability | [08-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter08/08-begin) | - | [08-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter08/08-end) |
-| 9. API gateway and circuit breakers | [09-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter09/09-begin) | - | [09-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter09/09-end) |
-| 10. Event-driven applications and functions | [10-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter10/10-begin) | [10-intermediate](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter10/10-intermediate) | [10-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter10/10-end) |
-| 11. Security: Authentication and SPA | [11-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter11/11-begin) | - | [11-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter11/11-end) |
-| 12. Security: Authorization and auditing | [12-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter12/12-begin) | - | [12-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter12/12-end) |
-| 13. Observability and monitoring | [13-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter13/13-begin) | - | [13-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter13/13-end) |
-| 14. Configuration and secrets management | [14-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter14/14-begin) | - | [14-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter14/14-end) |
-| 15. Continuous delivery and GitOps | [15-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter15/15-begin) | - | [15-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter15/15-end) |
-| 16. Serverless, GraalVM and Knative | [16-begin](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter16/16-begin) | - | [10-end](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/Chapter16/16-end) |
+| 2. Cloud native patterns and technologies | [02-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter02/02-begin) | - | [02-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter02/02-end) |
+| 3. Getting started with cloud native development | [03-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter03/03-begin) | - | [03-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter03/03-end) |
+| 4. Externalized configuration management | [04-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter04/04-begin) | - | [04-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter04/04-end) |
+| 5. Persisting and managing data in the cloud | [05-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter05/05-begin) | [05-intermediate](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter05/05-intermediate) | [05-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter05/05-end) |
+| 6. Containerizing Spring Boot | [06-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter06/06-begin) | - | [06-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter06/06-end) |
+| 7. Kubernetes fundamentals for Spring Boot | [07-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter07/07-begin) | - | [07-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter07/07-end) |
+| 8. Reactive Spring: Resilience and scalability | [08-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter08/08-begin) | - | [08-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter08/08-end) |
+| 9. API gateway and circuit breakers | [09-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter09/09-begin) | - | [09-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter09/09-end) |
+| 10. Event-driven applications and functions | [10-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter10/10-begin) | [10-intermediate](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter10/10-intermediate) | [10-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter10/10-end) |
+| 11. Security: Authentication and SPA | [11-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter11/11-begin) | - | [11-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter11/11-end) |
+| 12. Security: Authorization and auditing | [12-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter12/12-begin) | - | [12-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter12/12-end) |
+| 13. Observability and monitoring | [13-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter13/13-begin) | - | [13-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter13/13-end) |
+| 14. Configuration and secrets management | [14-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter14/14-begin) | - | [14-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter14/14-end) |
+| 15. Continuous delivery and GitOps | [15-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter15/15-begin) | - | [15-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter15/15-end) |
+| 16. Serverless, GraalVM and Knative | [16-begin](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter16/16-begin) | - | [10-end](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/Chapter16/16-end) |
 
 ## Polar Bookshop
 
-The final project developed throughout the book is available [here](https://github.com/ThomasVitale/cloud-native-spring-in-action/tree/sb-3-main/PolarBookshop).
+The final project developed throughout the book is available [here](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/PolarBookshop).
 
 You can find the source code for the Angular frontend [here](https://github.com/PolarBookshop/polar-ui/tree/v1).
 
-## Book Forum
-
-Feel free to submit questions, feedback, or errata to the forum dedicated to "Cloud Native Spring in Action": https://livebook.manning.com/book/cloud-native-spring-in-action/.
-
-## Contact the Author
-
-You are very welcome to contact me for questions, feedback, or suggestions. Feel free to reach out to me on [Twitter](https://twitter.com/vitalethomas), [LinkedIn](https://www.linkedin.com/in/vitalethomas), [Mastodon](https://mastodon.online/@thomasvitale), [BlueSky](https://bsky.app/profile/thomasvitale.com) or here on [GitHub](https://github.com/ThomasVitale/).
