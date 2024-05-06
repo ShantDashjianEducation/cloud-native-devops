@@ -156,5 +156,5 @@ Gradle | Maven
 
 The final project developed throughout the book is available [here](https://github.com/ShantDashjianEducation/cloud-native-devops/tree/training/PolarBookshop).
 
-You can find the source code for the Angular frontend [here](https://github.com/PolarBookshop/polar-ui/tree/v1).
+You can find the source code for the Angular frontend [here](https://github.com/ShantDashjianEducation/bookshop-ui).
 
